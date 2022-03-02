@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='./tanzu-java-web-app')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='github.com/sample-accelerators/tanzu-java-web-app.git')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='dev')
 
